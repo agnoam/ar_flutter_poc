@@ -61,7 +61,8 @@ class _RemoteObjectState extends State<RemoteObject> {
       final ArCoreReferenceNode node = ArCoreReferenceNode(
         name: "Toucano",
         objectUrl: /* 'https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf' */
-        "https://raw.githubusercontent.com/agnoam/ar_flutter_poc/master/assets/objects/untitled.glb"
+        // "https://raw.githubusercontent.com/agnoam/ar_flutter_poc/master/assets/objects/untitled.glb"
+        "https://raw.githubusercontent.com/agnoam/ar_flutter_poc/master/assets/objects/optimized.glb"
         // scale: vector.Vector3(0.1, 0.1, 0.1)
       );
 
