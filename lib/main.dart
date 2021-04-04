@@ -60,12 +60,12 @@ class _RemoteObjectState extends State<RemoteObject> {
     if (image != null) {
       final ArCoreReferenceNode node = ArCoreReferenceNode(
         name: "Toucano",
-        objectUrl: 
-        'https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf'/* "https://raw.githubusercontent.com/agnoam/ar_flutter_poc/master/assets/objects/untitled.gltf" */
+        objectUrl: /* 'https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf' */
+        "https://raw.githubusercontent.com/agnoam/ar_flutter_poc/master/assets/objects/untitled.glb"
         // scale: vector.Vector3(0.1, 0.1, 0.1)
       );
 
-      arCoreController.removeNodeWithIndex(0);
+      // arCoreController.removeNodeWithIndex(0);
       arCoreController.addArCoreNodeToAugmentedImage(node, image.index);
     }
   }
